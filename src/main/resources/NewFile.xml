@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<head>
+		<field name="bostrancode">bos01</field>
+		<field name="bostranserno">21323232</field>
+		<field name="bosreqsys">1111</field>
+		<field name="bosreqdate">20150807</field>
+		<field name="bosreqtime">192446</field>
+	</head>
+	<body>
+		<field name="bosidtp">10100</field>
+		<field name="bosidno">420684198101223516</field>
+		<field name="boscunm">刘剑</field>
+		<field name="bosfrom">2</field>
+		<field name="bosmersys">0002</field>
+		<field name="bosbizscene">01</field>
+		<array name="repdetarray">
+			<struct>
+				<field name="name">jack</field>
+				<field name="pwd">123</field>
+			</struct>
+			<struct>
+				<field name="name">tom</field>
+				<field name="pwd">234</field>
+			</struct>
+		</array>
+	</body>
+</service>
+</xml>
