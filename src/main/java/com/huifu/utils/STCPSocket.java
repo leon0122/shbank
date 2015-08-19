@@ -66,4 +66,11 @@ public class STCPSocket extends Socket
 	{
 		out.write(data);
 	}
+	
+	
+	public static void main(String[] args) throws Exception {
+		STCPSocket sc= STCPSocketFactory.getSTCPSocketFactory().getSTCPSocket();
+		sc.connect("127.0.0.1", 9995, 60);
+		sc.write("123".getBytes());
+	}
 }
